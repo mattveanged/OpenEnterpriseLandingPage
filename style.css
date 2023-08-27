@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+@import url('https://db.onlinewebfonts.com/c/f05f148ec6596f0b75375fa566aaf1fe?family=Bely+Display+W00+Regular'); 
+
+* {
+  margin: 0;
+}
+
+.cabecalho {
+  font: 1em sans-serif;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px;
+}
+
+.cabecalho-menu {
+  display: flex;
+  gap: 40px;
+}
+
+.cabecalho-logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-left: 50px;
+}
+
+.cabecalho-logo-icone {
+  width: 68px;
+  height: 40px;
+}
+
+
+.cabecalho-logo-titulo{
+  color: var(--black, #303031);
+  font-family: 'Varela Round', sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -1.28px;
+}
+
+
+.cabecalho-menu-texto {
+  color: var(--black, #303031);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.36px;
+}
+
+.cabecalho-menu-texto-verde {
+  color: var(--green, #71A894);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.36px;
+}
+
+
+
+body {
+  background: #FAFAFA;
+}
+
+.conteudo-principal {
+  display: flex;
+  flex-direction: row;
+}
+
+.conteudo-principal-escrito{
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  margin-left: 50px;
+  margin-top: 74px;
+  width: 608px;
+}
+
+.conteudo-principal-escrito-titulo {
+  color: var(--black, #303031);
+  font-family: "Bely Display W00 Regular"; 
+    font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 80px; /* 125% */
+  
+}
+
+.conteudo-principal-escrito-subtitulo {
+  color: var(--gray, #66645E);
+  padding-top: 10px;
+  font-family: Proxima Nova;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 133.333% */
+  letter-spacing: -0.48px;
+}
+
+.conteudo-principal-escrito-botao {
+  display: inline-flex;
+  padding: 20px 24px;
+  margin-top: 20px;
+  align-items: center;
+  border-radius: 8px;
+  background: #71A894;
+  color: var(--white, #FFF);
+  font-family: Proxima Nova;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 133.333% */
+}
+
+
+
+.conteudo-principal-imagem {
+  margin-top: 20px;
+  background-image: url("img/blob-shape 1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  width: 671px;
+  height: 720px;
+  padding: 0.023px 0px 0.349px 0px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  
+  
+}
+
+.conteudo-principal-imagem-foto {
+  margin-right: 120px;
+  margin-bottom: 160px;
+  
+}
+
+
+.conteudo-principal-imagem-fundo {
+  display: flex;
+  width: 671px;
+  height: 720px;
+  padding: 0.023px 0px 0.349px 0px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  
+}
+
+
+.rodape {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+} 
+
+.rodape-icone {
+  width: 18px;
+  height: 32px;
+  display: block;
+  margin: 0 auto;
+}
